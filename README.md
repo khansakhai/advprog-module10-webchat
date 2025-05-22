@@ -25,3 +25,19 @@ Setelah berhasil masuk, pengguna akan melihat halaman utama aplikasi chat. Di ba
 Ketika lebih dari satu pengguna aktif, seperti contoh antara "Khansa" dan "Lily", percakapan ditampilkan secara bergantian di ruang chat. Setiap pesan dilengkapi dengan nama pengguna dan isi pesan, yang memudahkan pengguna mengikuti alur percakapan. Daftar pengguna aktif di panel kiri juga ter-update untuk menampilkan semua pengguna yang sedang terhubung dengan server.
 
 ![webchat3](images/webchat3.png)
+
+### Experiment 3.2: Be Creative!
+
+#### Tampilan pengguna 1
+
+![webchat4](images/webchat4.png)
+
+#### Tampilan pengguna 2
+
+![webchat5](images/webchat5.png)
+
+#### Ringkasan Perubahan Design Chat
+
+Perubahan utama pada komponen chat ini berfokus pada peningkatan user experience dan visual hierarchy. Sidebar pengguna diperlebar menjadi 320px dengan design card yang lebih modern, dilengkapi avatar beringan dan indikator status online. Sistem highlight diterapkan untuk membedakan user aktif - pengguna yang sedang login akan mendapat background gradient biru-ungu dengan badge "You", sementara pengguna lain tetap menggunakan background putih standar.
+
+Tata letak pesan diubah mengikuti konvensi chat modern dimana pesan sendiri muncul di sebelah kanan dengan warna gradient yang konsisten, sedangkan pesan dari pengguna lain berada di kiri dengan background putih. Area input diperbaiki dengan field yang lebih besar dan tombol kirim bergradient dengan efek hover yang smooth. Seluruh interface dilengkapi dengan transisi halus, shadow yang tepat, dan spacing yang lebih baik untuk menciptakan pengalaman chat yang lebih intuitif dan profesional. Header juga ditambahkan indikator koneksi real-time untuk memberikan feedback status kepada pengguna.
